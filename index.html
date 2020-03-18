@@ -1,7 +1,118 @@
-<title>Personal Portfolio</title>
-<h1>Hello World!</h1>
+<html>
+  <head>
+    <title>Portfolio | Cristian Fernandez Soler - Front End Developer</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <script
+      src="https://kit.fontawesome.com/a4e589afd2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<a href="pages/calc.html">Open Calculator</a>
-<a href="https://github.com/cfernandezsoler/js-calculadora"
-  >Open Source Code for Calculator</a
->
+  <body>
+    <!-- Navbar -->
+    <navbar id="navbar">
+      <a class="nav-link" href="#intro">Quien soy</a>
+      <a class="nav-link" href="#projects">Proyectos</a>
+      <a class="nav-link" href="#contact">Contacto</a>
+    </navbar>
+
+    <!-- Welcome Section -->
+    <section id="intro">
+      <div class="container">
+        <h1 id="name">¡Hola! Mi nombre es Cristian Fernandez Soler</h1>
+        <h2 id="skill">Soy un Front End Developer</h2>
+
+        <h2>Trabajo con tecnologias como:</h2>
+        <div class="skills">
+          <h3>Front End:</h3>
+          <li>HTML, CSS, JavaScript, SASS.</li>
+          <h3>Frameworks y Librerias:</h3>
+          <li>React.js, JQuery, BootStrap.</li>
+          <h3>Back End:</h3>
+          <li>Node.js, Python, C#.</li>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h1>Mis proyectos</h1>
+      <div class="grid">
+        <div class="tile calc">
+          <div class="tile-overlay">
+            <h3>Calculadora React.js</h3>
+            <h5>
+              Aplicacion hecha para el curso FreeCodeCamp, sobre realizar una
+              calculadora.
+            </h5>
+            <div class="skills-used">
+              <h4>React.js</h4>
+              <h4>CSS</h4>
+              <h4>JavaScript</h4>
+            </div>
+            <div class="links">
+              <a
+                href="proyects/react-calculator.html"
+                target="_blank"
+                class="link-project"
+                ><i class="fas fa-globe"></i> Ver Proyecto</a
+              >
+              <a
+                href="https://github.com/cfernandezsoler/js-calculadora"
+                target="_blank"
+                class="link-source"
+                ><i class="fab fa-github"></i> Ver Codigo</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="tile calc">
+          <div class="tile-overlay">
+            <h3>Calculadora React.js</h3>
+            <h5>
+              Aplicacion hecha para el curso FreeCodeCamp, sobre realizar una
+              calculadora.
+            </h5>
+            <div class="skills-used">
+              <h4>React.js</h4>
+              <h4>CSS</h4>
+              <h4>JavaScript</h4>
+            </div>
+            <div class="links">
+              <a href="" class="link-project"
+                ><i class="fas fa-globe"></i> Ver Proyecto</a
+              >
+              <a href="" class="link-source"
+                ><i class="fab fa-github"></i> Ver Codigo</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h1>¿Trabajamos juntos?</h1>
+      <div class="email-container">
+        <a href="mailto:cris.fernandezsoler@gmail.com"
+          ><i class="fas fa-envelope-square"></i
+        ></a>
+        <h5>cris.fernandezsoler@gmail.com</h5>
+      </div>
+      <a
+        href="https://www.linkedin.com/in/cristian-fernandez-soler-763308188/"
+        target="_blank"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <a href="https://github.com/cfernandezsoler" target="_blank"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+  </body>
+</html>
