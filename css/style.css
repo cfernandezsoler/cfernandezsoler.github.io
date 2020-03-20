@@ -94,7 +94,6 @@ navbar a:hover {
 }
 
 .grid .tile {
-  border: 1px solid black;
   box-shadow: 2px 2px 7px rgb(20, 20, 20);
   width: 500px;
   height: 500px;
@@ -103,12 +102,18 @@ navbar a:hover {
 }
 
 .tile.calc {
-  background-image: url("calc-preview.png");
+  background-image: url("../media/calc-preview.png");
   background-size: cover;
 }
 
 .tile.quote {
-  background-image: url("quote-preview.png");
+  background-image: url("../media/quote-preview.png");
+  background-size: cover;
+  background-position: 45%;
+}
+
+.tile.amplifyion {
+  background-image: url("../media/amplifyion-preview.png");
   background-size: cover;
   background-position: 45%;
 }
