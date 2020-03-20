@@ -1,0 +1,120 @@
+body {
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
+.intro-container {
+  margin-top: 60px;
+}
+
+#intro h1 {
+  font-size: 80px;
+  margin: 40px;
+}
+
+.intro-img {
+  background-image: url("../media/intro-guitar.png");
+  background-size: cover;
+}
+
+#intro h2 {
+  font-size: 50px;
+  margin: 50px;
+}
+
+.intro-desc h1 {
+  width: 90%;
+  font-size: 55px;
+  margin: 20px;
+}
+
+.intro-desc p {
+  font-size: 24px;
+  margin: 30px;
+}
+
+.offer-item h3 {
+  font-size: 35px;
+}
+.offer-item i {
+  margin-right: 20px;
+  color: orange;
+}
+.offer-item p {
+  font-size: 20px;
+  margin: 20px;
+}
+
+#how-imgs h3 {
+  bottom: 0;
+}
+
+.how-img-build,
+.how-img-test,
+.how-img-deliver {
+  background-size: cover;
+  height: 400px;
+}
+
+.how-img-build {
+  background-image: url("../media/how-build.png");
+}
+.how-img-test {
+  background-image: url("../media/how-test.png");
+}
+.how-img-deliver {
+  background-image: url("../media/how-deliver.png");
+}
+
+#products button {
+  width: 20px;
+  height: 25px;
+}
+
+.products-sale,
+.products-special {
+  border: 1px solid black;
+  border-radius: 6px;
+  color: white;
+  position: absolute;
+  right: -10px;
+  top: -20px;
+}
+.products-sale {
+  background-color: red;
+}
+.products-special {
+  background-color: yellow;
+}
+
+.title-important {
+  font-size: 60px;
+}
+
+.bg-brown {
+  background-color: rgb(87, 59, 27);
+}
+.bg-custom {
+  background-color: rgb(234, 229, 222);
+}
+
+@media (max-width: 500px) {
+  #intro h1 {
+    font-size: 50px;
+    margin: 20px;
+  }
+  #intro h2 {
+    font-size: 30px;
+    margin: 10px 0px 20px 40px;
+  }
+  .intro-desc h1 {
+    width: 90%;
+    font-size: 40px;
+    margin: 20px;
+  }
+  #offer h2 {
+    font-size: 50px;
+  }
+  #how-imgs h2 {
+    font-size: 50px;
+  }
+}
