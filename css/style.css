@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  margin: 25px 0 0 0;
+  margin: 35px 0 0 0;
   padding: 0;
   font-family: Calibri, Arial, Helvetica, sans-serif, "Times New Roman";
 }
@@ -38,16 +38,23 @@ navbar a:hover {
 }
 /* intro */
 #intro {
-  background-color: rgb(26, 26, 26);
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(20, 20, 20); /* 26*/
   color: white;
   text-align: center;
+}
+
+#intro .container {
+  background-image: url("../media/programming-background.png");
+  background-size: cover;
+  width: 50%;
 }
 
 #intro #name {
   font-size: 60px;
   padding: 50px 0 0;
   margin: 0 auto;
-  width: 600px;
 }
 
 #intro #skill {
@@ -60,21 +67,28 @@ navbar a:hover {
   margin: 0 auto;
   text-align: left;
   padding-bottom: 40px;
+  width: 50%;
 }
 
-#intro h2 {
+.skills ul {
+  margin: 0 20px 0;
+}
+
+.skills h2 {
   font-size: 45px;
-  margin: 15px;
+  border-bottom: 1px solid darkgray;
+  margin: 30px;
+  width: 90%;
 }
 
-#intro h3 {
+.skills h3 {
   font-size: 33px;
   margin: 0;
 }
 
-#intro li {
+.skills li {
   font-size: 25px;
-  margin: 0 0 0 10px;
+  margin: 0 0 10px 50px;
 }
 
 /* projects */
@@ -136,7 +150,7 @@ navbar a:hover {
   background-color: rgba(130, 130, 130, 0.25);
   margin: 0;
   padding: 20px 20px 10px;
-  font-size: 50px;
+  font-size: 45px;
 }
 
 .tile-overlay .skills-used {
@@ -225,11 +239,7 @@ navbar a:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-@media (max-width: 620px) {
-  navbar {
-    justify-content: space-between;
-  }
-}
+/* responsive */
 
 @media (max-width: 480px) {
   navbar a {
@@ -238,14 +248,19 @@ navbar a:hover {
   }
 }
 
-@media (max-width: 620px) {
-  #intro #name {
-    margin: 0 auto;
-    width: auto;
-  }
-}
-
 @media (max-width: 520px) {
+  #intro #name {
+    font-size: 50px;
+  }
+  #intro #skill {
+    margin: 20px 0 20px;
+  }
+  .skills h2 {
+    font-size: 37px;
+  }
+  .skills h3 {
+    font-size: 25px;
+  }
   .grid .tile {
     background-position: center;
     width: 99.8%;
@@ -256,7 +271,7 @@ navbar a:hover {
     bottom: 175px;
   }
   .tile h3 {
-    font-size: 40px;
+    font-size: 35px;
   }
   .tile h5 {
     margin: 20px auto 20px;
@@ -265,5 +280,22 @@ navbar a:hover {
     margin: 10px 0 10px;
     padding: 10px;
     font-size: 18px;
+  }
+}
+
+@media (max-width: 620px) {
+  navbar {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 800px) {
+  #intro {
+    flex-direction: column;
+    width: inherit;
+  }
+  #intro .container,
+  #intro .skills {
+    width: inherit;
   }
 }
