@@ -264,6 +264,7 @@ navbar a:hover {
   .grid .tile {
     background-position: center;
     width: 99.8%;
+    height: 600px;
     text-align: center;
     margin: 10px 0 10px;
   }
