@@ -17,8 +17,8 @@
     ],
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque efficitur erat, vel hendrerit lectus euismod nec. Nam ut nisl fermentum, commodo justo vitae, finibus velit. Nam ac vulputate purus. Pellentesque porttitor interdum urna ",
     "tools": ["React", "React Router", "Sass", "Bootstrap", "Responsive"],
-    "link": "",
-    "gitLink": ""
+    "link": "/projects/event-product-page/",
+    "gitLink": "https://github.com/cfernandezsoler/event-product-page"
   },
   {
     "title": "Amplyfion, Venta de Guitarras",
@@ -38,8 +38,8 @@
     ],
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque efficitur erat, vel hendrerit lectus euismod nec. Nam ut nisl fermentum, commodo justo vitae, finibus velit. Nam ac vulputate purus. Pellentesque porttitor interdum urna ",
     "tools": ["Bootstrap", "CSS", "jQuery", "Responsive"],
-    "link": "",
-    "gitLink": ""
+    "link": "/projects/amplifyion-product-page/",
+    "gitLink": "https://github.com/cfernandezsoler/amplifyion-product-page"
   },
   {
     "title": "Calculadora React.js",
@@ -51,8 +51,8 @@
     ],
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque efficitur erat, vel hendrerit lectus euismod nec. Nam ut nisl fermentum, commodo justo vitae, finibus velit. Nam ac vulputate purus. Pellentesque porttitor interdum urna ",
     "tools": ["React", "CSS"],
-    "link": "",
-    "gitLink": ""
+    "link": "/projects/js-calculadora/",
+    "gitLink": "https://github.com/cfernandezsoler/js-calculadora"
   },
   {
     "title": "Generador de frases aleatorio",
@@ -64,7 +64,7 @@
     ],
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque efficitur erat, vel hendrerit lectus euismod nec. Nam ut nisl fermentum, commodo justo vitae, finibus velit. Nam ac vulputate purus. Pellentesque porttitor interdum urna ",
     "tools": ["jQuery", "CSS", "AJAX"],
-    "link": "",
-    "gitLink": ""
+    "link": "/projects/fcc-random-quote/",
+    "gitLink": "https://github.com/cfernandezsoler/fcc-random-quote"
   }
 ]

@@ -128,10 +128,10 @@ const Tools = (props) => (
 
 const ProjectLinks = (props) => (
   <div>
-    <a href={props.item.link}>
+    <a href={props.item.link} target="_blank">
       <i className="fab fa-github mx-2"></i>Ver Proyecto
     </a>
-    <a href={props.item.gitLink}>
+    <a href={props.item.gitLink} target="_blank">
       <i className="fas fa-globe mx-2"></i>Ver Codigo
     </a>
   </div>
