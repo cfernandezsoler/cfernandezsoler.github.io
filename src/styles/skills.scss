@@ -1,0 +1,18 @@
+#skills {
+  .tool-list {
+    background-color: white;
+    width: 250px;
+    position: relative;
+    top: -75px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 20px;
+    text-align: center;
+    h3 {
+      height: 80px;
+    }
+  }
+  li {
+    font-size: 18px;
+  }
+}
