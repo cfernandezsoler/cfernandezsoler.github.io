@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from "react";
 import { Carousel } from "react-responsive-carousel";
-import proyects from "./data/proyects.json";
+import projects from "./data/projects.json";
 import "./styles/libraries/carousel.min.css";
 import "./styles/projects.scss";
 
@@ -32,7 +32,7 @@ export const Projects = () => {
           renderArrowPrev={ButtonPrev}
           renderArrowNext={ButtonNext}
         >
-          {proyects.map((item, i) => (
+          {projects.map((item, i) => (
             <ProjectItem
               key={`item${i}`}
               item={item}
