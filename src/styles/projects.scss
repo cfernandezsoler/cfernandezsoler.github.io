@@ -71,14 +71,14 @@
         }
       }
 
-      p {
+      article {
         overflow-y: auto;
         height: 250px;
       }
 
       a {
         display: inline-block;
-        padding: 8px;
+        padding: 8px 12px 8px 8px;
         text-decoration: none;
         background-color: #007bff;
         color: white;
