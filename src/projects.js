@@ -80,17 +80,25 @@ const Photos = (props) => (
   </div>
 );
 
-const Description = (props) => (
-  <div className="col-md-6 text-left d-relative project-desc">
-    <h3 className="border-bottom pb-1">Descripcion</h3>
-    <p>{props.item.description}</p>
+const Description = (props) => {
+  let textArr = props.item.description.split("\n");
 
-    <div>
-      <Tools toolList={props.item.tools} />
-      <ProjectLinks item={props.item} />
+  return (
+    <div className="col-md-6 text-left d-relative project-desc">
+      <h3 className="border-bottom pb-1">Descripción</h3>
+      <article>
+        {textArr.map((paragraph) => (
+          <p>{paragraph}</p>
+        ))}
+      </article>
+
+      <div>
+        <Tools toolList={props.item.tools} />
+        <ProjectLinks item={props.item} />
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 const Tools = (props) => (
   <ul className="list-unstyled my-2">
@@ -108,7 +116,7 @@ const ProjectLinks = (props) => (
       <i className="fab fa-github mx-2"></i>Ver Proyecto
     </a>
     <a href={props.item.gitLink} target="_blank">
-      <i className="fas fa-globe mx-2"></i>Ver Codigo
+      <i className="fas fa-globe mx-2"></i>Ver Código
     </a>
   </div>
 );

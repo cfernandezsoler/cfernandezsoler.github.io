@@ -42,7 +42,7 @@ const List1 = () => (
 );
 const List2 = () => (
   <ul className="list-unstyled m-3 tool-list shadow-sm">
-    <h3>Librerias y Frameworks</h3>
+    <h3>Librerías y Frameworks</h3>
     <li>React.js</li>
     <li>React Router</li>
     <li>jQuery</li>

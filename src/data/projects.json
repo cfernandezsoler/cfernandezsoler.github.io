@@ -1,6 +1,6 @@
 [
   {
-    "title": "Reserva de Eventos",
+    "title": "BA-Disco: Reserva de Eventos",
     "photos": [
       {
         "link": "eventos-product/inicio.png",
@@ -15,28 +15,28 @@
         "alt": "Pagina de eventos, contacto."
       }
     ],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque efficitur erat, vel hendrerit lectus euismod nec. Nam ut nisl fermentum, commodo justo vitae, finibus velit. Nam ac vulputate purus. Pellentesque porttitor interdum urna ",
+    "description": "Sitio Web creado para un Salón de Eventos y Espectáculos. El sitio está separado por varias secciones, en las cuales se presenta primero la de introducción donde se detalla la ubicación y oferta de servicios del salón y además la sección nosotros que describe el salón en sí con varias imágenes.\nSe cuenta con una sección de eventos donde se le permite al usuario observar los eventos previos filtrando por mes y año para facilitar la búsqueda. Por otra parte, en la sección de eventos próximos, se puede observar la descripción, fecha y horario del evento, además de poder realizar la reserva del mismo en la sección de Contacto donde cuenta con un form a completar.\nPara la creación del sitio web, se utilizó React y React Router por la facilidad de poder brindar animación durante las transiciones que se daban al navegar por las secciones del sitio.\nEl estilo de las páginas fue diseñado con Bootstrap y combinado con Sass. Cuenta con un diseño Responsive el cual es adaptable a cualquier dispositivo y accesible a cualquier usuario.",
     "tools": ["React", "React Router", "Sass", "Bootstrap", "Responsive"],
     "link": "/projects/event-product-page/",
     "gitLink": "https://github.com/cfernandezsoler/event-product-page"
   },
   {
-    "title": "Amplyfion, Venta de Guitarras",
+    "title": "Amplifyion: Venta de Guitarras",
     "photos": [
       {
-        "link": "amplyfion/inicio.png",
+        "link": "amplifyion/inicio.png",
         "alt": "Venta de guitarras, inicio."
       },
       {
-        "link": "amplyfion/oferta.png",
+        "link": "amplifyion/oferta.png",
         "alt": "Venta de guitarras, oferta de la compañia."
       },
       {
-        "link": "amplyfion/venta.png",
+        "link": "amplifyion/venta.png",
         "alt": "Venta de guitarras, venta de guitarras."
       }
     ],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque efficitur erat, vel hendrerit lectus euismod nec. Nam ut nisl fermentum, commodo justo vitae, finibus velit. Nam ac vulputate purus. Pellentesque porttitor interdum urna ",
+    "description": "Sitio Web creado para la venta de guitarras de la marca Amplifyion. El objetivo principal fue describir la historia de la marca, la oferta y el proceso involucrado en la misma. Para esto, se le ofrece al usuario un diseño simple y atractivo en el cual facilita la lectura e interacción con el sitio.\nAdicionalmente, se pueden observar los distintos modelos de guitarras con su respectiva variedad de colores y detallando brevemente la cualidad de cada una.\nPara la creación del sitio web se desarrolló a base de HTML y usando funciones de jQuery para la demostración de imágenes en la variedad de colores de las guitarras.\nEl estilo de la página fue diseñado con la librería Bootstrap combinado con CSS, ofreciendo un diseño Responsive siendo accesible a cualquier dispositivo.",
     "tools": ["Bootstrap", "CSS", "jQuery", "Responsive"],
     "link": "/projects/amplifyion-product-page/",
     "gitLink": "https://github.com/cfernandezsoler/amplifyion-product-page"
@@ -49,7 +49,7 @@
         "alt": "Calculadora"
       }
     ],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque efficitur erat, vel hendrerit lectus euismod nec. Nam ut nisl fermentum, commodo justo vitae, finibus velit. Nam ac vulputate purus. Pellentesque porttitor interdum urna ",
+    "description": "Proyecto creado para el curso de Web Developer freeCodeCamp. El proyecto consistía en crear una aplicación web que funcionara como una simple calculadora.\nLa calculadora debe realizar múltiples operaciones y aplicar las mismas usando lógica de formula, además de utilizar decimales y otras funciones como borrar dígitos o la cuenta en sí.\nPara la creación de la calculadora utilice React.js para facilitar el diseño y desarrollo de la misma gracias a sus componentes y estados.\nEl estilo fue creado con CSS, utilizando Flexbox para el posicionamiento de sus botones y texto.",
     "tools": ["React", "CSS"],
     "link": "/projects/js-calculadora/",
     "gitLink": "https://github.com/cfernandezsoler/js-calculadora"
@@ -62,7 +62,7 @@
         "alt": "Generador de frases"
       }
     ],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque efficitur erat, vel hendrerit lectus euismod nec. Nam ut nisl fermentum, commodo justo vitae, finibus velit. Nam ac vulputate purus. Pellentesque porttitor interdum urna ",
+    "description": "Proyecto creado para el curso de Web Developer freeCodeCamp. El proyecto consistía en crear un sitio web que pudiera mostrar frases a través de un archivo de manera aleatoria.\nPara esto utilice jQuery para facilitar la lectura del archivo mediante el uso de la función AJAX.\nPara darle un estilo simple pero apropiado, se utilizó solo CSS.",
     "tools": ["jQuery", "CSS", "AJAX"],
     "link": "/projects/fcc-random-quote/",
     "gitLink": "https://github.com/cfernandezsoler/fcc-random-quote"
